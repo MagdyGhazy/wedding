@@ -217,7 +217,7 @@ h1, h2, h3, h4 {
     position: relative;
     width: 360px;
     height: 260px;
-    background: linear-gradient(160deg, #0D1628, #101C32, #142240);
+    background: linear-gradient(160deg, #202735, #101C32, #142240);
     border-radius: 0 0 16px 16px;
     box-shadow: 0 20px 50px rgba(0, 0, 0, 0.5), inset 0 1px 0 rgba(255, 255, 255, 0.05);
     perspective: 1200px;
@@ -316,7 +316,7 @@ h1, h2, h3, h4 {
     left: 18px;
     width: 324px;
     height: 210px;
-    background: linear-gradient(145deg, #0D1628, #142240);
+    background: linear-gradient(145deg, #202735, #142240);
     border-radius: 10px;
     z-index: 2;
     padding: 18px;
@@ -438,7 +438,7 @@ h1, h2, h3, h4 {
     margin-top: 30px;
     font-size: 0.75rem;
     letter-spacing: 0.5px;
-    color: #0D1628;
+    color: #202735;
     font-weight: 400;
     opacity: 0.6;
     text-align: center;
@@ -601,7 +601,7 @@ h1, h2, h3, h4 {
     border-radius: 50%;
     background-color: #f5c99e;
     border: none;
-    color: #0D1628;
+    color: #202735;
     display: flex;
     align-items: center;
     justify-content: center;
@@ -617,7 +617,7 @@ h1, h2, h3, h4 {
 }
 
 .audio-toggle {
-    background-color: rgba(13, 22, 40, 0.8);
+    background-color: #202735;
     border: 1px solid rgba(212, 175, 55, 0.3);
     box-shadow: 0 4px 15px rgba(0, 0, 0, 0.3);
     width: 48px;
@@ -706,7 +706,7 @@ h1, h2, h3, h4 {
 
 .glass-container {
     font-size: 30px !important;
-    background: rgba(13, 22, 40, 0.85);
+    background: #202735;
     backdrop-filter: blur(8px);
     -webkit-backdrop-filter: blur(8px);
     border: 1px solid rgba(212, 175, 55, 0.25);
@@ -932,7 +932,7 @@ h1, h2, h3, h4 {
 }
 
 .countdown-wrapper {
-    background: rgba(13, 22, 40, 0.6);
+    background: #202735;
     backdrop-filter: blur(4px);
     -webkit-backdrop-filter: blur(4px);
     border: 1px solid rgba(212, 175, 55, 0.2);
@@ -951,7 +951,7 @@ h1, h2, h3, h4 {
     display: flex;
     flex-direction: column;
     align-items: center;
-    background: rgba(13, 22, 40, 0.8);
+    background: #202735;
     border-radius: var(--border-radius-sm);
     padding: 12px 6px;
     border: 1px solid rgba(212, 175, 55, 0.2);
@@ -991,7 +991,7 @@ h1, h2, h3, h4 {
 }
 
 .location-card {
-    background: rgba(13, 22, 40, 0.85);
+    background: #202735;
     backdrop-filter: blur(8px);
     -webkit-backdrop-filter: blur(8px);
     border: 1px solid rgba(212, 175, 55, 0.25);
@@ -1041,7 +1041,7 @@ h1, h2, h3, h4 {
 }
 
 .venue-detail-card {
-    background: rgba(13, 22, 40, 0.7);
+    background: #202735;
     border: 1px solid rgba(212, 175, 55, 0.2);
     border-radius: var(--border-radius-md);
     padding: 24px 16px;
@@ -1062,7 +1062,7 @@ h1, h2, h3, h4 {
 .venue-detail-icon-wrapper {
     width: 44px;
     height: 44px;
-    background-color: rgba(13, 22, 40, 0.6);
+    background-color: #202735;
     border: 1px solid rgba(212, 175, 55, 0.3);
     border-radius: 50%;
     display: flex;
@@ -1161,7 +1161,7 @@ h1, h2, h3, h4 {
 .designer-credits {
     font-size: 0.7rem;
     letter-spacing: 0.5px;
-    color: rgba(212, 175, 55, 0.5);
+    color: #f7d1ab;
 }
 
 /* --- 12. Desktop Adjustments --- */
@@ -1285,14 +1285,14 @@ h1, h2, h3, h4 {
 
 .download-btn {
     background-color: #f5c99e;
-    color: #0D1628;
+    color: #202735;
     border: none;
     box-shadow: 0 4px 15px rgba(212, 175, 55, 0.3);
 }
 
 .download-btn:hover {
     background-color: #C49B2A;
-    color: #0D1628;
+    color: #202735;
     border: none;
     box-shadow: 0 6px 20px rgba(212, 175, 55, 0.4);
     transform: translateY(-2px);
@@ -1300,14 +1300,14 @@ h1, h2, h3, h4 {
 
 .whatsapp-btn {
     background-color: #f5c99e;
-    color: #0D1628;
+    color: #202735;
     border: none;
     box-shadow: 0 4px 15px rgba(212, 175, 55, 0.3);
 }
 
 .whatsapp-btn:hover {
     background-color: #C49B2A;
-    color: #0D1628;
+    color: #202735;
     border: none;
     box-shadow: 0 6px 20px rgba(212, 175, 55, 0.4);
     transform: translateY(-2px);
@@ -1459,7 +1459,7 @@ h1, h2, h3, h4 {
     top: 20px;
     right: 20px;
     z-index: 1001;
-    background: rgba(13, 22, 40, 0.85);
+    background: #202735;
     border: 1px solid rgba(212, 175, 55, 0.5);
     color: #f5c99e;
     font-family: 'Aref Ruqaa', serif;
