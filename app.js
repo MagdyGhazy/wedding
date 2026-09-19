@@ -428,4 +428,58 @@ document.addEventListener('DOMContentLoaded', () => {
         });
     }
 
+    (function () {
+    const pageUrl   = window.location.href.split('#')[0];
+    const shareText = 'فرح مجدي و دنيا ❤️ الجمعة 25-9-2026 — جراند لامور';
+    const fullText  = shareText + '\n' + pageUrl;
+    const isMobile  = /Android|iPhone|iPad|iPod/i.test(navigator.userAgent);
+
+    const toast = document.getElementById('share-toast');
+    function showToast(msg) {
+        toast.textContent = msg;
+        toast.classList.add('show');
+        setTimeout(() => toast.classList.remove('show'), 2800);
+    }
+
+    // 1) المشاركة الأصلية (بتفتح واتساب + ماسنجر + انستا + أي حاجة تانية)
+    const nativeBtn = document.getElementById('native-share-btn');
+    if (navigator.share) {
+        nativeBtn.classList.remove('hidden');
+        nativeBtn.addEventListener('click', async () => {
+            try {
+                await navigator.share({ title: 'فرح مجدي و دنيا', text: shareText, url: pageUrl });
+            } catch (e) { /* المستخدم قفل الشيت */ }
+        });
+    }
+
+    // 2) واتساب
+    document.getElementById('whatsapp-share-btn')
+        .setAttribute('href', 'https://wa.me/?text=' + encodeURIComponent(fullText));
+
+    // 3) ماسنجر — تطبيق على الموبايل، ديالوج فيسبوك على الديسكتوب
+    document.getElementById('messenger-share-btn').setAttribute(
+        'href',
+        isMobile
+            ? 'fb-messenger://share/?link=' + encodeURIComponent(pageUrl)
+            : 'https://www.facebook.com/sharer/sharer.php?u=' + encodeURIComponent(pageUrl)
+    );
+
+    // 4) انستجرام — مفيش API لمشاركة لينك، فبننسخ اللينك ونفتح الكاميرا/الاستوري
+    document.getElementById('instagram-share-btn').addEventListener('click', async () => {
+        try {
+            await navigator.clipboard.writeText(fullText);
+        } catch (e) {
+            const t = document.createElement('textarea');
+            t.value = fullText; document.body.appendChild(t);
+            t.select(); document.execCommand('copy'); t.remove();
+        }
+        showToast('تم نسخ اللينك — الصقه في الاستوري أو البايو');
+        if (isMobile) {
+            setTimeout(() => { window.location.href = 'instagram://story-camera'; }, 900);
+        } else {
+            setTimeout(() => { window.open('https://www.instagram.com/', '_blank'); }, 900);
+        }
+    });
+})();
+
 });

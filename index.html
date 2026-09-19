@@ -241,7 +241,7 @@
                             </svg>
                         </div>
                         <span class="venue-detail-label" data-i18n="where" style="font-size: 22px !important;">المكان</span>
-                        <span class="venue-detail-value" data-i18n="where_val" style="font-size: 22px !important;">المحلة الكبرى - الغربية</span>
+                        <span class="venue-detail-value" data-i18n="where_val" style="font-size: 22px !important;">المحلة الكبرى - طريق طنطا - الغربية</span>
                     </a>
                     <div class="venue-detail-card">
                         <div class="venue-detail-icon-wrapper">
@@ -281,15 +281,56 @@
                     </span>
                     <span class="btn-text" data-i18n="download_card">تحميل الدعوة</span>
                 </a>
+
+                <button type="button" id="native-share-btn" class="action-btn download-btn hidden">
+                        <span class="btn-icon">
+                            <svg viewBox="0 0 24 24" width="18" height="18" fill="none" stroke="currentColor" stroke-width="2" stroke-linecap="round" stroke-linejoin="round">
+                                <circle cx="18" cy="5" r="3"/><circle cx="6" cy="12" r="3"/><circle cx="18" cy="19" r="3"/>
+                                <line x1="8.59" y1="13.51" x2="15.42" y2="17.49"/><line x1="15.41" y1="6.51" x2="8.59" y2="10.49"/>
+                            </svg>
+                        </span>
+                        <span class="btn-text" data-i18n="share_invitation">مشاركة الدعوة</span>
+                    </button>
                 
-                <a href="#" id="whatsapp-share-btn" class="action-btn whatsapp-btn">
-                    <span class="btn-icon">
-                        <svg viewBox="0 0 24 24" width="18" height="18" fill="currentColor">
-                            <path d="M12.012 2c-5.506 0-9.989 4.478-9.99 9.984a9.96 9.96 0 0 0 1.333 4.982L2 22l5.202-1.362a9.92 9.92 0 0 0 4.808 1.226h.003c5.502 0 9.99-4.478 9.99-9.987 0-2.67-1.037-5.178-2.924-7.065A9.914 9.914 0 0 0 12.012 2zm5.727 14.072c-.314.888-1.543 1.624-2.126 1.716-.525.083-1.22.152-3.538-.809-2.966-1.229-4.873-4.236-5.02-4.434-.148-.198-1.208-1.605-1.208-3.06 0-1.456.764-2.17.103-2.458-.297-.13-.655-.165-.92-.165-.265 0-.695.1-1.059.495-.364.395-1.389 1.358-1.389 3.313s1.42 3.842 1.618 4.106c.198.264 2.793 4.265 6.766 5.978.945.408 1.684.651 2.26.834.95.301 1.814.258 2.496.156.76-.113 2.126-.87 2.424-1.712.298-.842.298-1.564.208-1.712-.089-.15-.33-.24-.693-.422zm0 0"/>
-                        </svg>
-                    </span>
-                    <span class="btn-text" data-i18n="share_on_whatsapp">مشاركة عبر واتساب</span>
-                </a>
+                <!-- <div class="share-group">
+                    <button type="button" id="native-share-btn" class="action-btn download-btn hidden">
+                        <span class="btn-icon">
+                            <svg viewBox="0 0 24 24" width="18" height="18" fill="none" stroke="currentColor" stroke-width="2" stroke-linecap="round" stroke-linejoin="round">
+                                <circle cx="18" cy="5" r="3"/><circle cx="6" cy="12" r="3"/><circle cx="18" cy="19" r="3"/>
+                                <line x1="8.59" y1="13.51" x2="15.42" y2="17.49"/><line x1="15.41" y1="6.51" x2="8.59" y2="10.49"/>
+                            </svg>
+                        </span>
+                        <span class="btn-text" data-i18n="share_invitation">مشاركة الدعوة</span>
+                    </button>
+
+                    <a href="#" id="whatsapp-share-btn" class="action-btn share-btn" aria-label="WhatsApp">
+                        <span class="btn-icon">
+                            <svg viewBox="0 0 24 24" width="18" height="18" fill="currentColor">
+                                <path d="M12.012 2c-5.506 0-9.989 4.478-9.99 9.984a9.96 9.96 0 0 0 1.333 4.982L2 22l5.202-1.362a9.92 9.92 0 0 0 4.808 1.226h.003c5.502 0 9.99-4.478 9.99-9.987 0-2.67-1.037-5.178-2.924-7.065A9.914 9.914 0 0 0 12.012 2zm5.727 14.072c-.314.888-1.543 1.624-2.126 1.716-.525.083-1.22.152-3.538-.809-2.966-1.229-4.873-4.236-5.02-4.434-.148-.198-1.208-1.605-1.208-3.06 0-1.456.764-2.17.103-2.458-.297-.13-.655-.165-.92-.165-.265 0-.695.1-1.059.495-.364.395-1.389 1.358-1.389 3.313s1.42 3.842 1.618 4.106c.198.264 2.793 4.265 6.766 5.978.945.408 1.684.651 2.26.834.95.301 1.814.258 2.496.156.76-.113 2.126-.87 2.424-1.712.298-.842.298-1.564.208-1.712-.089-.15-.33-.24-.693-.422zm0 0"/>
+                            </svg>
+                        </span>
+                    </a>
+
+                    <a href="#" id="messenger-share-btn" class="action-btn share-btn" aria-label="Messenger">
+                        <span class="btn-icon">
+                            <svg viewBox="0 0 24 24" width="18" height="18" fill="currentColor">
+                                <path d="M12 2C6.24 2 2 6.22 2 11.92c0 3.25 1.38 6.09 3.62 7.94V24l3.4-1.87c.94.26 1.94.4 2.98.4 5.76 0 10-4.22 10-9.92S17.76 2 12 2zm1.03 13.34l-2.57-2.74-4.99 2.74 5.48-5.82 2.63 2.74 4.93-2.74-5.48 5.82z"/>
+                            </svg>
+                        </span>
+                    </a>
+
+                    <button type="button" id="instagram-share-btn" class="action-btn share-btn" aria-label="Instagram">
+                        <span class="btn-icon">
+                            <svg viewBox="0 0 24 24" width="18" height="18" fill="none" stroke="currentColor" stroke-width="2">
+                                <rect x="2" y="2" width="20" height="20" rx="5.5"/>
+                                <circle cx="12" cy="12" r="4.2"/>
+                                <circle cx="17.6" cy="6.4" r="1.2" fill="currentColor" stroke="none"/>
+                            </svg>
+                        </span>
+                    </button>
+                </div> -->
+
+                <div id="share-toast" class="share-toast"></div>
             </div>
         </section>
 

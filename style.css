@@ -1513,3 +1513,60 @@ html[dir="rtl"] .couple-names {
 /* --- 13. RTL Adjustments --- */
 [dir='rtl'] .audio-widget { left: 25px; right: auto; }
 [dir='rtl'] .whatsapp-float-widget { left: 25px; right: auto; }
+
+.share-group {
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    gap: 12px;
+    flex-wrap: wrap;
+    margin-top: 35px;
+}
+
+/* أزرار دائرية صغيرة للأيقونات */
+.share-btn {
+    width: 46px;
+    height: 46px;
+    padding: 0;
+    justify-content: center;
+    background-color: #FFF8F0;
+    color: #A9502C;
+    border: 1px solid rgba(169, 80, 44, 0.3);
+    box-shadow: 0 4px 12px rgba(90, 42, 24, 0.10);
+    cursor: pointer;
+}
+
+.share-btn:hover {
+    background-color: #A9502C;
+    color: #FFF8F0;
+    border-color: #A9502C;
+    transform: translateY(-2px);
+    box-shadow: 0 6px 18px rgba(169, 80, 44, 0.35);
+}
+
+/* رسالة "تم النسخ" */
+.share-toast {
+    position: fixed;
+    bottom: 30px;
+    left: 50%;
+    transform: translate(-50%, 20px);
+    background-color: #A9502C;
+    color: #FFF8F0;
+    padding: 12px 22px;
+    border-radius: 30px;
+    font-family: var(--font-sans);
+    font-size: 0.8rem;
+    box-shadow: 0 8px 25px rgba(90, 42, 24, 0.3);
+    opacity: 0;
+    visibility: hidden;
+    transition: opacity 0.3s ease, transform 0.3s ease, visibility 0.3s;
+    z-index: 3000;
+    text-align: center;
+    max-width: 90%;
+}
+
+.share-toast.show {
+    opacity: 1;
+    visibility: visible;
+    transform: translate(-50%, 0);
+}
