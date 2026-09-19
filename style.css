@@ -6,23 +6,23 @@
 
 /* --- 1. Design Tokens & CSS Variables --- */
 :root {
-    --color-primary: #D4AF37;        /* Gold */
+    --color-primary: #f5c99e;        /* Gold */
     --color-primary-dark: #B8972C;   /* Darker Gold */
     --color-primary-light: #EAD07C;  /* Light Gold */
     
-    --color-accent: #D4AF37;         /* Gold */
+    --color-accent: #f5c99e;         /* Gold */
     --color-accent-light: rgba(212, 175, 55, 0.15);
     
     --color-bg: #0D1628;             /* Dark Navy Background */
     --color-bg-secondary: #162845;   /* Lighter Navy */
     
-    --color-gold: #D4AF37;           /* Gold Accent */
+    --color-gold: #f5c99e;           /* Gold Accent */
     --color-gold-dark: #B8972C;      /* Darker Gold Accent */
     --color-gold-light: #EAD07C;     /* Bright Gold Accent */
 
-    --color-text-dark: #D4AF37;      /* Gold text */
+    --color-text-dark: #f5c99e;      /* Gold text */
     --color-text-muted: #C49B2A;     /* Darker Gold muted */
-    --color-text-light: #D4AF37;     /* Gold text on dark bg */
+    --color-text-light: #f5c99e;     /* Gold text on dark bg */
     
     --font-title: 'Aref Ruqaa', serif;
     --font-serif: 'Aref Ruqaa', serif;
@@ -174,7 +174,7 @@ h1, h2, h3, h4 {
     width: var(--size);
     height: var(--size);
     border-radius: 50%;
-    background: #D4AF37;
+    background: #f5c99e;
     box-shadow: 0 0 6px rgba(212, 175, 55, 0.4), 0 0 12px rgba(212, 175, 55, 0.2);
     animation: sparkle-fall var(--duration) ease-in-out var(--delay) infinite;
     will-change: transform, opacity;
@@ -353,7 +353,7 @@ h1, h2, h3, h4 {
     font-size: 0.65rem;
     letter-spacing: 0.5px;
     font-weight: 500;
-    color: #D4AF37;
+    color: #f5c99e;
     margin-bottom: 10px;
     opacity: 0.8;
 }
@@ -361,7 +361,7 @@ h1, h2, h3, h4 {
 .card-couple-names {
     font-family: var(--font-title);
     font-size: 1.6rem;
-    color: #D4AF37;
+    color: #f5c99e;
     margin-bottom: 4px;
     letter-spacing: 0.5px;
 }
@@ -369,7 +369,7 @@ h1, h2, h3, h4 {
 .card-names-bilingual {
     font-family: var(--font-serif);
     font-size: 0.72rem;
-    color: #D4AF37;
+    color: #f5c99e;
     opacity: 0.75;
     letter-spacing: 0.5px;
     margin-bottom: 10px;
@@ -380,7 +380,7 @@ h1, h2, h3, h4 {
 .card-date {
     font-size: 0.8rem;
     letter-spacing: 0.5px;
-    color: #D4AF37;
+    color: #f5c99e;
     font-weight: 600;
     font-variant-numeric: lining-nums;
     opacity: 0.7;
@@ -394,7 +394,7 @@ h1, h2, h3, h4 {
     transform: translate(-50%, -50%);
     width: 55px;
     height: 55px;
-    background: linear-gradient(135deg, #D4AF37, #B8972C, #D4AF37);
+    background: linear-gradient(135deg, #f5c99e, #B8972C, #f5c99e);
     border: 2px solid #C49B2A;
     border-radius: 50%;
     cursor: pointer;
@@ -536,7 +536,7 @@ h1, h2, h3, h4 {
     width: var(--s);
     height: var(--s);
     border-radius: 50%;
-    background: #D4AF37;
+    background: #f5c99e;
     box-shadow: 0 0 6px rgba(212, 175, 55, 0.6), 0 0 12px rgba(212, 175, 55, 0.3);
     animation: gs-fall var(--d) ease-in-out var(--y) infinite;
     will-change: transform, opacity;
@@ -599,7 +599,7 @@ h1, h2, h3, h4 {
     width: 48px;
     height: 48px;
     border-radius: 50%;
-    background-color: #D4AF37;
+    background-color: #f5c99e;
     border: none;
     color: #0D1628;
     display: flex;
@@ -633,7 +633,7 @@ h1, h2, h3, h4 {
 }
 
 .music-disc {
-    color: #D4AF37;
+    color: #f5c99e;
     width: 100%;
     height: 100%;
     display: flex;
@@ -644,7 +644,7 @@ h1, h2, h3, h4 {
 
 .audio-toggle.playing .music-disc {
     animation: spin-disc 6s linear infinite;
-    color: #D4AF37;
+    color: #f5c99e;
 }
 
 .audio-wave {
@@ -666,7 +666,7 @@ h1, h2, h3, h4 {
 .audio-wave span {
     width: 2px;
     height: 3px;
-    background-color: #D4AF37;
+    background-color: #f5c99e;
     border-radius: 1px;
 }
 
@@ -736,7 +736,7 @@ h1, h2, h3, h4 {
     display: inline-block;
     font-size: 0.7rem;
     font-weight: 600;
-    color: #D4AF37;
+    color: #f1d3b5;
     letter-spacing: 0.5px;
     margin-bottom: 20px;
     border-bottom: 1px solid rgba(212, 175, 55, 0.3);
@@ -746,7 +746,7 @@ h1, h2, h3, h4 {
 .wedding-announcement {
     font-size: 0.75rem;
     letter-spacing: 0.5px;
-    color: #D4AF37;
+    color: #f5c99e;
     font-weight: 500;
     margin-bottom: 25px;
     opacity: 0.75;
@@ -759,7 +759,7 @@ h1, h2, h3, h4 {
     gap: 8px;
     font-family: var(--font-title);
     font-size: 2.2rem;
-    color: #D4AF37;
+    color: #f5c99e;
     line-height: 1.2;
     margin-bottom: 20px;
     letter-spacing: 0.5px;
@@ -769,7 +769,7 @@ h1, h2, h3, h4 {
     font-family: var(--font-serif);
     font-style: italic;
     font-size: 1.8rem;
-    color: #D4AF37;
+    color: #f5c99e;
     opacity: 0.7;
     margin: 5px 0;
 }
@@ -778,7 +778,7 @@ h1, h2, h3, h4 {
     font-family: var(--font-serif);
     font-style: italic;
     font-size: 1rem;
-    color: #D4AF37;
+    color: #f5c99e;
     opacity: 0.7;
     margin-bottom: 30px;
 }
@@ -794,17 +794,17 @@ h1, h2, h3, h4 {
 .divider-line {
     width: 60px;
     height: 1px;
-    background-color: #D4AF37;
+    background-color: #f5c99e;
     opacity: 0.4;
 }
 .divider-dot {
     width: 4px;
     height: 4px;
-    background-color: #D4AF37;
+    background-color: #f5c99e;
     border-radius: 50%;
 }
 .divider-heart {
-    color: #D4AF37;
+    color: #f5c99e;
     opacity: 0.5;
     font-size: 0.85rem;
 }
@@ -827,7 +827,7 @@ h1, h2, h3, h4 {
 }
 
 .detail-icon {
-    color: #D4AF37;
+    color: #f5c99e;
     margin-bottom: 10px;
     opacity: 0.6;
 }
@@ -835,7 +835,7 @@ h1, h2, h3, h4 {
 .detail-label {
     font-size: 0.65rem;
     letter-spacing: 0.5px;
-    color: #D4AF37;
+    color: #f5c99e;
     font-weight: 600;
     margin-bottom: 5px;
     opacity: 0.7;
@@ -845,14 +845,14 @@ h1, h2, h3, h4 {
     font-family: var(--font-serif);
     font-size: 1.15rem;
     font-weight: 700;
-    color: #D4AF37;
+    color: #f5c99e;
     font-variant-numeric: lining-nums;
     letter-spacing: 0.5px;
 }
 
 .detail-sub {
     font-size: 0.75rem;
-    color: #D4AF37;
+    color: #f5c99e;
     opacity: 0.6;
     margin-top: 2px;
 }
@@ -866,7 +866,7 @@ h1, h2, h3, h4 {
 
 .music-action-btn {
     background-color: transparent;
-    color: #D4AF37;
+    color: #f5c99e;
     border: 1px solid rgba(212, 175, 55, 0.4);
     padding: 14px 28px;
     border-radius: 30px;
@@ -884,7 +884,7 @@ h1, h2, h3, h4 {
 
 .music-action-btn:hover {
     background-color: rgba(212, 175, 55, 0.1);
-    border-color: #D4AF37;
+    border-color: #f5c99e;
     transform: translateY(-2px);
     box-shadow: 0 6px 20px rgba(0, 0, 0, 0.3);
 }
@@ -913,7 +913,7 @@ h1, h2, h3, h4 {
     font-family: var(--font-serif);
     font-size: 1.25rem;
     letter-spacing: 0.5px;
-    color: #D4AF37;
+    color: #f5c99e;
     margin-bottom: 30px;
     font-weight: 600;
     position: relative;
@@ -928,7 +928,7 @@ h1, h2, h3, h4 {
     transform: translateX(-50%);
     width: 40px;
     height: 1px;
-    background-color: #D4AF37;
+    background-color: #f5c99e;
 }
 
 .countdown-wrapper {
@@ -962,14 +962,14 @@ h1, h2, h3, h4 {
     font-family: var(--font-serif);
     font-size: 1.6rem;
     font-weight: 700;
-    color: #D4AF37;
+    color: #f5c99e;
     line-height: 1.2;
     font-variant-numeric: lining-nums;
 }
 
 .count-label {
     font-size: 0.65rem;
-    color: #D4AF37;
+    color: #f5c99e;
     opacity: 0.7;
     text-transform: uppercase;
     letter-spacing: 0.5px;
@@ -985,7 +985,7 @@ h1, h2, h3, h4 {
 
 .section-accent-flower {
     font-size: 1.5rem;
-    color: #D4AF37;
+    color: #f5c99e;
     opacity: 0.4;
     margin-bottom: 10px;
 }
@@ -1006,7 +1006,7 @@ h1, h2, h3, h4 {
     font-size: 1.25rem;
     font-weight: 600;
     letter-spacing: 0.5px;
-    color: #D4AF37;
+    color: #f5c99e;
     margin-bottom: 15px;
     display: inline-block;
     text-transform: uppercase;
@@ -1016,7 +1016,7 @@ h1, h2, h3, h4 {
     font-family: var(--font-serif);
     font-style: italic;
     font-size: 0.95rem;
-    color: #D4AF37;
+    color: #f5c99e;
     opacity: 0.7;
     margin-bottom: 25px;
     line-height: 1.7;
@@ -1068,7 +1068,7 @@ h1, h2, h3, h4 {
     display: flex;
     align-items: center;
     justify-content: center;
-    color: #D4AF37;
+    color: #f5c99e;
     margin-bottom: 12px;
     box-shadow: 0 2px 8px rgba(0, 0, 0, 0.2);
 }
@@ -1076,7 +1076,7 @@ h1, h2, h3, h4 {
 .venue-detail-label {
     font-size: 0.65rem;
     font-weight: 600;
-    color: #D4AF37;
+    color: #f5c99e;
     opacity: 0.7;
     letter-spacing: 0.5px;
     margin-bottom: 8px;
@@ -1085,7 +1085,7 @@ h1, h2, h3, h4 {
 
 .venue-detail-value {
     font-size: 0.85rem;
-    color: #D4AF37;
+    color: #f5c99e;
     font-weight: 500;
     line-height: 1.5;
 }
@@ -1102,7 +1102,7 @@ h1, h2, h3, h4 {
     justify-content: center;
     gap: 8px;
     background-color: transparent;
-    color: #D4AF37;
+    color: #f5c99e;
     border: 1px solid rgba(212, 175, 55, 0.4);
     padding: 10px 22px;
     border-radius: 30px;
@@ -1119,8 +1119,8 @@ h1, h2, h3, h4 {
 
 .direction-btn:hover {
     background-color: rgba(212, 175, 55, 0.1);
-    border-color: #D4AF37;
-    color: #D4AF37;
+    border-color: #f5c99e;
+    color: #f5c99e;
     box-shadow: 0 6px 15px rgba(0, 0, 0, 0.3);
     transform: translateY(-2px);
 }
@@ -1136,7 +1136,7 @@ h1, h2, h3, h4 {
 .footer-logo {
     font-family: var(--font-title);
     font-size: 1.5rem;
-    color: #D4AF37;
+    color: #f5c99e;
     margin-bottom: 15px;
     letter-spacing: 0.5px;
 }
@@ -1145,7 +1145,7 @@ h1, h2, h3, h4 {
     font-family: var(--font-serif);
     font-size: 0.9rem;
     letter-spacing: 0.5px;
-    color: #D4AF37;
+    color: #f5c99e;
     opacity: 0.75;
     margin-bottom: 25px;
     text-transform: uppercase;
@@ -1217,7 +1217,7 @@ h1, h2, h3, h4 {
 .shabka-card-container {
     width: 100%;
     padding: 10px;
-    border: 2px solid #D4AF37;
+    border: 2px solid #f5c99e;
     border-radius: var(--border-radius-md);
     box-shadow: var(--shadow-heavy);
     background-color: rgba(13, 22, 40, 0.9);
@@ -1245,7 +1245,7 @@ h1, h2, h3, h4 {
     bottom: 4px;
     left: 4px;
     right: 4px;
-    border: 1px solid #D4AF37;
+    border: 1px solid #f5c99e;
     border-radius: calc(var(--border-radius-md) - 4px);
     opacity: 0.4;
     pointer-events: none;
@@ -1284,7 +1284,7 @@ h1, h2, h3, h4 {
 }
 
 .download-btn {
-    background-color: #D4AF37;
+    background-color: #f5c99e;
     color: #0D1628;
     border: none;
     box-shadow: 0 4px 15px rgba(212, 175, 55, 0.3);
@@ -1299,7 +1299,7 @@ h1, h2, h3, h4 {
 }
 
 .whatsapp-btn {
-    background-color: #D4AF37;
+    background-color: #f5c99e;
     color: #0D1628;
     border: none;
     box-shadow: 0 4px 15px rgba(212, 175, 55, 0.3);
@@ -1461,7 +1461,7 @@ h1, h2, h3, h4 {
     z-index: 1001;
     background: rgba(13, 22, 40, 0.85);
     border: 1px solid rgba(212, 175, 55, 0.5);
-    color: #D4AF37;
+    color: #f5c99e;
     font-family: 'Aref Ruqaa', serif;
     font-size: 0.9rem;
     font-weight: 600;
