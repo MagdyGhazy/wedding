@@ -101,7 +101,7 @@ document.addEventListener('DOMContentLoaded', () => {
     // --- Fix #2: Set og:image to absolute URL for correct social sharing ---
     const ogImageMeta = document.getElementById('og-image-meta');
     if (ogImageMeta && window.location.protocol !== 'file:') {
-        ogImageMeta.setAttribute('content', window.location.origin + '/assets/invitation_ar.jpg');
+        ogImageMeta.setAttribute('content', window.location.origin + '/assets/Wedding-post-magdy.png');
     }
 
     // --- Elements ---
@@ -344,12 +344,12 @@ document.addEventListener('DOMContentLoaded', () => {
         const downloadBtn = document.getElementById('download-btn');
         if (invitationImg && downloadBtn) {
             if (lang === 'en') {
-                invitationImg.src = 'assets/invitation_en.jpg';
-                downloadBtn.href = 'assets/invitation_en.jpg';
+                invitationImg.src = 'assets/Wedding-post-magdy.png';
+                downloadBtn.href = 'assets/Wedding-post-magdy.png';
                 downloadBtn.download = 'Magdy_Donia_Invitation_EN.jpg';
             } else {
-                invitationImg.src = 'assets/invitation_ar.jpg';
-                downloadBtn.href = 'assets/invitation_ar.jpg';
+                invitationImg.src = 'assets/Wedding-post-magdy.png';
+                downloadBtn.href = 'assets/Wedding-post-magdy.png';
                 downloadBtn.download = 'Magdy_Donia_Invitation_AR.jpg';
             }
         }
