@@ -351,7 +351,7 @@ h1, h2, h3, h4 {
 
 .card-pretitle {
     font-size: 0.65rem;
-    letter-spacing: 3px;
+    letter-spacing: 0.5px;
     font-weight: 500;
     color: #D4AF37;
     margin-bottom: 10px;
@@ -363,7 +363,7 @@ h1, h2, h3, h4 {
     font-size: 1.6rem;
     color: #D4AF37;
     margin-bottom: 4px;
-    letter-spacing: 2px;
+    letter-spacing: 0.5px;
 }
 
 .card-names-bilingual {
@@ -371,7 +371,7 @@ h1, h2, h3, h4 {
     font-size: 0.72rem;
     color: #D4AF37;
     opacity: 0.75;
-    letter-spacing: 1px;
+    letter-spacing: 0.5px;
     margin-bottom: 10px;
     direction: ltr;
     unicode-bidi: plaintext;
@@ -379,7 +379,7 @@ h1, h2, h3, h4 {
 
 .card-date {
     font-size: 0.8rem;
-    letter-spacing: 1px;
+    letter-spacing: 0.5px;
     color: #D4AF37;
     font-weight: 600;
     font-variant-numeric: lining-nums;
@@ -428,7 +428,7 @@ h1, h2, h3, h4 {
     font-weight: 700;
     font-size: 0.65rem;
     white-space: nowrap;
-    letter-spacing: 1px;
+    letter-spacing: 0.5px;
     pointer-events: none;
     font-family: var(--font-title);
     text-shadow: 0 1px 1px rgba(255,255,255,0.2);
@@ -437,7 +437,7 @@ h1, h2, h3, h4 {
 .envelope-instruction {
     margin-top: 30px;
     font-size: 0.75rem;
-    letter-spacing: 1.5px;
+    letter-spacing: 0.5px;
     color: #0D1628;
     font-weight: 400;
     opacity: 0.6;
@@ -737,7 +737,7 @@ h1, h2, h3, h4 {
     font-size: 0.7rem;
     font-weight: 600;
     color: #D4AF37;
-    letter-spacing: 2px;
+    letter-spacing: 0.5px;
     margin-bottom: 20px;
     border-bottom: 1px solid rgba(212, 175, 55, 0.3);
     padding-bottom: 4px;
@@ -745,7 +745,7 @@ h1, h2, h3, h4 {
 
 .wedding-announcement {
     font-size: 0.75rem;
-    letter-spacing: 2px;
+    letter-spacing: 0.5px;
     color: #D4AF37;
     font-weight: 500;
     margin-bottom: 25px;
@@ -762,7 +762,7 @@ h1, h2, h3, h4 {
     color: #D4AF37;
     line-height: 1.2;
     margin-bottom: 20px;
-    letter-spacing: 1px;
+    letter-spacing: 0.5px;
 }
 
 .and-symbol {
@@ -834,7 +834,7 @@ h1, h2, h3, h4 {
 
 .detail-label {
     font-size: 0.65rem;
-    letter-spacing: 1px;
+    letter-spacing: 0.5px;
     color: #D4AF37;
     font-weight: 600;
     margin-bottom: 5px;
@@ -847,7 +847,7 @@ h1, h2, h3, h4 {
     font-weight: 700;
     color: #D4AF37;
     font-variant-numeric: lining-nums;
-    letter-spacing: 1px;
+    letter-spacing: 0.5px;
 }
 
 .detail-sub {
@@ -873,7 +873,7 @@ h1, h2, h3, h4 {
     font-family: var(--font-sans);
     font-size: 0.8rem;
     font-weight: 600;
-    letter-spacing: 1px;
+    letter-spacing: 0.5px;
     display: flex;
     align-items: center;
     gap: 12px;
@@ -912,7 +912,7 @@ h1, h2, h3, h4 {
 .section-title {
     font-family: var(--font-serif);
     font-size: 1.25rem;
-    letter-spacing: 1px;
+    letter-spacing: 0.5px;
     color: #D4AF37;
     margin-bottom: 30px;
     font-weight: 600;
@@ -972,7 +972,7 @@ h1, h2, h3, h4 {
     color: #D4AF37;
     opacity: 0.7;
     text-transform: uppercase;
-    letter-spacing: 1px;
+    letter-spacing: 0.5px;
     margin-top: 5px;
     font-weight: 500;
 }
@@ -1005,7 +1005,7 @@ h1, h2, h3, h4 {
     font-family: var(--font-serif);
     font-size: 1.25rem;
     font-weight: 600;
-    letter-spacing: 1px;
+    letter-spacing: 0.5px;
     color: #D4AF37;
     margin-bottom: 15px;
     display: inline-block;
@@ -1078,7 +1078,7 @@ h1, h2, h3, h4 {
     font-weight: 600;
     color: #D4AF37;
     opacity: 0.7;
-    letter-spacing: 1px;
+    letter-spacing: 0.5px;
     margin-bottom: 8px;
     text-transform: uppercase;
 }
@@ -1109,7 +1109,7 @@ h1, h2, h3, h4 {
     text-decoration: none;
     font-size: 0.72rem;
     font-weight: 600;
-    letter-spacing: 1px;
+    letter-spacing: 0.5px;
     transition: var(--transition-quick);
     width: auto;
     max-width: fit-content;
@@ -1138,13 +1138,13 @@ h1, h2, h3, h4 {
     font-size: 1.5rem;
     color: #D4AF37;
     margin-bottom: 15px;
-    letter-spacing: 1px;
+    letter-spacing: 0.5px;
 }
 
 .footer-message {
     font-family: var(--font-serif);
     font-size: 0.9rem;
-    letter-spacing: 1px;
+    letter-spacing: 0.5px;
     color: #D4AF37;
     opacity: 0.75;
     margin-bottom: 25px;
@@ -1160,7 +1160,7 @@ h1, h2, h3, h4 {
 
 .designer-credits {
     font-size: 0.7rem;
-    letter-spacing: 1px;
+    letter-spacing: 0.5px;
     color: rgba(212, 175, 55, 0.5);
 }
 
@@ -1276,7 +1276,7 @@ h1, h2, h3, h4 {
     font-family: var(--font-sans);
     font-size: 0.75rem;
     font-weight: 600;
-    letter-spacing: 1px;
+    letter-spacing: 0.5px;
     border-radius: 50px;
     text-decoration: none;
     transition: var(--transition-quick);
@@ -1409,7 +1409,7 @@ h1, h2, h3, h4 {
     color: #FAF7F0;
     font-family: var(--font-title);
     font-size: 2rem;
-    letter-spacing: 1px;
+    letter-spacing: 0.5px;
     text-shadow: 0 2px 8px rgba(0, 0, 0, 0.5);
     opacity: 0;
     transform: translateY(10px);
@@ -1424,7 +1424,7 @@ h1, h2, h3, h4 {
 @media only screen and (max-width: 768px) {
     .modal-caption {
         font-size: 1.5rem;
-        letter-spacing: 1px;
+        letter-spacing: 0.5px;
     }
     .modal-close {
         top: 15px;
