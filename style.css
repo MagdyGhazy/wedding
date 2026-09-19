@@ -1158,10 +1158,22 @@ h1, h2, h3, h4 {
     margin: 0 auto 20px auto;
 }
 
-.designer-credits {
+.invitation-credits {
     font-size: 0.7rem;
     letter-spacing: 0.5px;
     color: #f7d1ab;
+}
+
+.designer-credits {
+    position: fixed;
+    bottom: 8px;
+    right: 10px;
+    margin: 0;
+    z-index: 9999;
+    
+    font-size: 13px !important;
+    letter-spacing: 0;
+    color: rgba(247, 209, 171, 0.35);
 }
 
 /* --- 12. Desktop Adjustments --- */
