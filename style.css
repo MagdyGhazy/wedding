@@ -1570,3 +1570,17 @@ html[dir="rtl"] .couple-names {
     visibility: visible;
     transform: translate(-50%, 0);
 }
+
+.messenger-btn {
+    background-color: #A9502C;
+    color: #FFFFFF;
+    border: none;
+    box-shadow: 0 4px 15px rgba(169, 80, 44, 0.3);
+}
+
+.messenger-btn:hover {
+    background-color: #A9502C;
+    color: #FFFFFF;
+    box-shadow: 0 6px 20px rgba(169, 80, 44, 0.4);
+    transform: translateY(-2px);
+}
