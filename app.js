@@ -433,12 +433,28 @@ document.addEventListener('DOMContentLoaded', () => {
         const shareText = translations[currentLang].whatsapp_share;
         const isMobile  = /Android|iPhone|iPad|iPod/i.test(navigator.userAgent);
 
-        document.getElementById('messenger-share-btn').setAttribute(
-            'href',
-            isMobile
-                ? 'fb-messenger://share/?link=' + encodeURIComponent(pageUrl)
-                : 'https://www.facebook.com/sharer/sharer.php?u=' + encodeURIComponent(pageUrl)
-        );
+        const messengerBtn = document.getElementById('messenger-share-btn');
+        messengerBtn.removeAttribute('href');
+        messengerBtn.style.cursor = 'pointer';
+
+        messengerBtn.addEventListener('click', (e) => {
+            e.preventDefault();
+            const fallbackUrl = 'https://www.facebook.com/sharer/sharer.php?u=' + encodeURIComponent(pageUrl);
+
+            if (isMobile) {
+                const deepLink = 'fb-messenger://share/?link=' + encodeURIComponent(pageUrl);
+                const clickedAt = Date.now();
+                window.location.href = deepLink;
+
+                setTimeout(() => {
+                    if (Date.now() - clickedAt < 1500 && !document.hidden) {
+                        window.location.href = fallbackUrl;
+                    }
+                }, 800);
+            } else {
+                window.open(fallbackUrl, '_blank');
+            }
+        });
 
         const toast = document.getElementById('share-toast');
         document.getElementById('instagram-share-btn').addEventListener('click', async () => {
